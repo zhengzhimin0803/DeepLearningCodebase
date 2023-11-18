@@ -1,0 +1,3 @@
+image_00001.jpg 0
+image_00002.jpg 0
+image_00003.jpg 9
