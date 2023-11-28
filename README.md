@@ -5,8 +5,24 @@
 This is a deep learning codebase for storing, sharing, and improving the code modules of my research and learning in the field of deep learning. These code modules cover various deep learning algorithms and applications, including (but not limited to) Convolutional Neural Networks, Recurrent Neural Networks, Reinforcement Learning, etc.
 
 ## Project Structure
-
-In this codebase, each type of deep learning algorithm or application has a separate folder, which contains the code to implement the algorithm or application, as well as related data and documents.
+### dl-common
+- create common dataloader
+### NER
+- https://github.com/doccano/doccano  to get platform to label sentence
+- doccano command line
+pip install doccano
+```
+# Initialize database.
+doccano init
+# Create a super user.
+doccano createuser --username admin --password admin
+# Start a web server.
+doccano webserver --port 8000
+```
+In another terminal, run the command:
+```
+doccano task
+```
 
 ## How to Use
 
